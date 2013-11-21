@@ -1,0 +1,91 @@
+html,body
+{
+	background-color:#efefef;
+	background-image:url('../subtlenet2.png');
+}
+
+hr
+{
+	border-width:1px 0 0 0;
+	border-color:#999;
+	border-style:solid;
+	margin:5px 0;
+	width:100%;
+}
+
+header > #logo
+{
+	font-family: 'Fredericka the Great', cursive;
+	font-size:60px;
+}
+
+header > section[role="buttons"]
+{
+	margin:5px 0;
+	float:right;
+	text-align:right;
+}
+
+header > section[role="buttons"] > #plusControl
+{
+	float:right;
+	overflow:hidden;
+}
+
+header > section[role="buttons"] > #fbControl
+{
+	float:right;
+	overflow:hidden;
+}
+
+header > section[role="buttons"] > #twControl
+{
+	float:right;
+	overflow:hidden;
+}
+
+
+section[role="regex_input"] > input[type="textbox"]
+{
+	padding:5px;
+	font-size:20px;
+	border:2px #888 solid;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	width:100%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+section[role="regex_options"]
+{
+	min-height:100px;
+
+}
+section[role="string"]{width:100%;}
+section[role="string"] > textarea
+{
+	padding:5px;
+	border:2px #888 solid;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	border-radius: 8px;
+	width:100%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+#input_string {height:150px; margin:5px 0 20px 0;}
+#output_array {height:400px;}
+
+footer{margin:5px 0 10px 0;}
+
+footer a,footer a:link,footer a:visited {color:#04819E; text-decoration:none; font-weight:normal;}
+footer a:hover {color:#015367; text-decoration:underline; cursor: pointer; font-weight:normal;}
+
+footer > section[role="php_ver"]
+{
+	text-align:right;
+}
